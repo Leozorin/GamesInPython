@@ -1,1 +1,1 @@
-Repositorio de Jogos feitos em Python.
+Repositório de Jogos feitos em Python.
