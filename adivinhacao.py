@@ -1,5 +1,4 @@
 import random
-
 def jogar():
 
     print("*********************************")
@@ -38,7 +37,7 @@ def jogar():
         menor = chute < numero_secreto
 
         if(acertou):
-            print("Você acertou e fez {}!".format(pontos))
+            print("Você acertou e fez {} pontos!".format(pontos))
             break
         else:
             if(maior):
@@ -49,3 +48,6 @@ def jogar():
             pontos = pontos - pontos_perdidos
 
     print("Fim do jogo")
+
+if(__name__ == "__main__"):
+    jogar()
